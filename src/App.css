@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+
+body, html{
+    background-color: black;
+    color: white;
+    margin: 0 !important;
+    overflow-x: hidden;
+    padding: 0;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+body {
+  -ms-overflow-style: none;  
+  scrollbar-width: none;    
+}
+
+.container {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.navbar{
+    border: transparent;
+    border-right: 1px solid white;
+}
+.card{
+    width: 100px;
+    height: 100px;
+    padding: 1.5rem;
+    background-color: aliceblue;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+}
+
+.project-container{
+    overflow-x: hidden;
+}
+
+.project-card{
+    height: 400px;
+    width: 400px;
+    margin: 20px;
+}
+
+.contact-item p{
+    font-size: 20px;
+}
+h1{
+  color: white;
+}
