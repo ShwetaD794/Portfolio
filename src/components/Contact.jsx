@@ -29,12 +29,12 @@ export default function Contact() {
         Contact Me
       </h1>
 
-      <div className="contact-item flex gap-16 justify-center flex-wrap">
+      <div className="contact-item flex gap-25 justify-center flex-wrap">
         <a
           href="mailto:shwetadhote8s@gmail.com"
           className="animate-contact text-center text-white text-2xl flex flex-col items-center gap-2 hover:text-red-400 cursor-pointer relative z-50"
         >
-          <i className="fa-solid fa-envelope text-4xl"></i>
+          <i className="fa-solid fa-envelope text-6xl"></i>
           <span className="text-xl">Email</span>
         </a>
 
@@ -44,7 +44,7 @@ export default function Contact() {
           rel="noopener noreferrer"
           className="animate-contact text-center text-white text-2xl flex flex-col items-center gap-2 hover:text-pink-400 cursor-pointer relative z-50"
         >
-          <i className="fa-brands fa-instagram text-4xl"></i>
+          <i className="fa-brands fa-instagram text-6xl"></i>
           <span className="text-xl">Instagram</span>
         </a>
 
@@ -54,7 +54,7 @@ export default function Contact() {
           rel="noopener noreferrer"
           className="animate-contact text-center text-white text-2xl flex flex-col items-center gap-2 hover:text-gray-400 cursor-pointer relative z-50"
         >
-          <i className="fa-brands fa-github text-4xl"></i>
+          <i className="fa-brands fa-github text-6xl"></i>
           <span className="text-xl">Github</span>
         </a>
 
@@ -64,7 +64,7 @@ export default function Contact() {
           rel="noopener noreferrer"
           className="animate-contact text-center text-white text-2xl flex flex-col items-center gap-2 hover:text-blue-500 cursor-pointer relative z-50"
         >
-          <i className="fa-brands fa-linkedin text-4xl"></i>
+          <i className="fa-brands fa-linkedin text-6xl"></i>
           <span className="text-xl">LinkedIn</span>
         </a>
       </div>

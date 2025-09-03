@@ -31,7 +31,7 @@ export default function Navbar() {
   }, []);
 
   return (
-    <nav className="navbar fixed left-0 top-0 h-full w-38 flex flex-col items-center justify-start py-4 shadow-md space-y-6 bg-transparent text-white z-50">
+    <nav className="navbar fixed left-0 top-0 h-full w-38 flex flex-col items-center justify-start py-4 shadow-md space-y-10 bg-transparent text-white z-50 text-2xl">
       <a href="#home" className="nav-link text-l p-2 rounded-lg cursor-pointer">Home</a>
       <a href="#about" className="nav-link text-l p-2 rounded-lg cursor-pointer">About</a>
       <a href="#skills" className="nav-link text-l p-2 rounded-lg cursor-pointer">Skills</a>

@@ -51,7 +51,7 @@ export default function SkillsReveal() {
   }, []);
 
   return (
-    <div id="skills" className="min-h-screen flex items-center justify-center bg-transparent overflow-x-hidden pl-62 py-20">
+    <div id="skills" className="min-h-screen flex items-center justify-center bg-transparent overflow-x-hidden pl-42 py-20">
       <div className="flex flex-col items-center w-full max-w-6xl px-4">
         <h2 className="text-3xl font-bold text-center mb-10 text-white">
           My Skills
@@ -62,14 +62,14 @@ export default function SkillsReveal() {
             <div
               key={i}
               ref={(el) => (cardsRef.current[i] = el)}
-              className=" w-32 h-28 bg-white/20 backdrop-blur-sm p-4 rounded-lg shadow-md flex items-center gap-4 opacity-20 w-full sm:w-[45%] md:w-[22%] max-w-[260px]"
+              className=" w-32 h-28 bg-white/20 backdrop-blur-sm p-4 rounded-lg shadow-md flex items-center gap-4 opacity-20 w-full sm:w-[35%] md:w-[20%] max-w-[260px]"
             >
               <img
                 src={skill.img}
                 alt={skill.name}
                 className="w-10 h-10 object-contain"
               />
-              <p className="text-lg font-semibold text-white">{skill.name}</p>
+              <p className="text-xl font-semibold text-white">{skill.name}</p>
             </div>
           ))}
         </div>

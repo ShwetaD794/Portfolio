@@ -77,13 +77,13 @@ export default function About() {
   return (
     <div
       ref={aboutRef} id="about"
-      className="about-container min-h-screen px-6 py-12 flex flex-col items-center pl-62"
+      className="about-container min-h-screen px-6 py-12 flex flex-col items-center pl-42 text-xl"
     >
       <div className="max-w-3xl w-full">
         <h1 className="about-heading text-4xl font-bold text-cyan-400 mb-6 text-center pb-2">
           About Me
         </h1>
-        <p className="about-para text-lg text-gray-500 mb-10 leading-relaxed ">
+        <p className="about-para text-xl text-gray-500 mb-10 leading-relaxed n">
           I am a Full Stack Developer with a passion for creating dynamic and
           responsive web applications. With a strong foundation in both front-end
           and back-end technologies, I enjoy bringing ideas to life through code.
@@ -93,7 +93,7 @@ export default function About() {
           solutions. Let's connect and build something amazing together!
         </p>
 
-        <h2 className="text-2xl font-semibold text-purple-400 mb-4 mt-8 text-center">
+        <h2 className="text-3xl font-semibold text-purple-400 mb-4 mt-8 text-center">
           Certifications
         </h2>
         <ul className="cert-list list-disc list-inside text-gray-500 mb-10 space-y-2 pl-2">
@@ -123,7 +123,7 @@ export default function About() {
           </li>
         </ul>
 
-        <h2 className="text-2xl font-semibold text-purple-400 mb-4 mt-8 text-center">
+        <h2 className="text-3xl font-semibold text-purple-400 mb-4 mt-8 text-center">
           Experience
         </h2>
         <div className="space-y-8">
